@@ -1,16 +1,33 @@
 title: Tristan_McCoy
 email: tristanmccoy1@yahoo.com
+description: >-
+  Creative data professional.
 linkedin_username: tristanmccoy
 show_downloads: True
 minimal_mistakes_skin: dirt
-theme: jekyll-theme-minimal
+search: True
+
+markdown: kramdown
+remote_theme: mistakes/minimal-mistakes
+
+permalink: /:categories/:title
+paginate: 5
+paginate_path: /page:num/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 author:
-  name: "Tristan McCoy"
-  avatar: "/assets/images/IMG_5631.jpeg"
-  bio: "Creative data professional"
+  name    : "Tristan McCoy"
+  avatar  : "/assets/images/IMG_5631.jpeg"
+  bio     : "Creative data professional"
   links: 
     - label: "LinkedIn"
-    icon: "fa-brands fa-linkedin"
-    url: "https://www.linkedin.com/in/tristanmccoy/"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/tristanmccoy/"
     
